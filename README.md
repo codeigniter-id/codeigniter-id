@@ -12,4 +12,5 @@ The repository for codeigniter indonesia facebook fanpage
 - codeigniter-indonesia-website
 	- index.php -> redirecting into codeigniter-indonesia-website folder
 - codeigniter-indonesia-core-system
+- codeigniter-indonesia-db -> to hold .sql file for this site
 - codeigniter-indonesia-static -> to hold all static file [css,js,image,etc]
