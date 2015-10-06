@@ -14,3 +14,9 @@ The repository for codeigniter indonesia facebook fanpage
 - codeigniter-indonesia-core-system
 - codeigniter-indonesia-db -> to hold .sql file for this site
 - codeigniter-indonesia-static -> to hold all static file [css,js,image,etc]
+
+# Component
+
+- Auth modul [ion_auth : https://github.com/benedmunds/CodeIgniter-Ion-Auth]
+	- default login key [admin@admin.com, password]
+	- login test : yourdomain.com/auth
