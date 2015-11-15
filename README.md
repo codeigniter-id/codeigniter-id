@@ -1,27 +1,27 @@
 # codeigniter-id
-codeigniter-id adalah platform untuk grup codeigniter indonesia facebook fanpage
+codeigniter-id adalah platform untuk grup codeigniter indonesia facebook fanpage, boleh dikatakan ini adalah aplikasi untuk management posting dan lain-lain. menyediakan fitur admin untuk pengaturan default website pada umumnya dan posting management juga menyediakan fitur pembuatan static page, sebagai contoh about, us dan lain-lain. memoderator posting sebelum posting di tampilkan, dan pemantauan komentar jika dalam posting terdapat komentar, sedikit banyak meniru stackoverflow.
 
 # Folder Structure
-- codeigniter-id
-	- applications
-		- codeigniter-indonesia-admin
-			- [default codeigniter for application]
-		- codeigniter-indonesia-website
-			- [default codeigniter for application]
-		- .htaccess
-	- codeigniter-indonesia-admin
-		- index.php [default codeigniter index.php untuk redirect ke folder codeigniter-indonesia-admin within codeigniter-id/applications/codeigniter-indonesia-admin]
-		- .htaccess
-	- codeigniter-indonesia-core-system
-		- [default codeigniter core system]
-	- codeigniter-indonesia-db
-		- [folder dengan nama folder berupa tanggal perubahan]
-			- [untuk menampung file .sql jika ada yang ditambah atau dirubah]
-	- codeigniter-indonesia-website
-		- index.php [default codeigniter index.php untuk redirect ke folder codeigniter-indonesia-website within codeigniter-id/applications/codeigniter-indonesia-website]
-	- CONTRIBUTORS.txt
-	- LICENSE
-	- README.md
+| codeigniter-id/
+	| applications/
+		| codeigniter-indonesia-admin/
+			| [default codeigniter for application]
+		| codeigniter-indonesia-website/
+			| [default codeigniter for application]
+		| .htaccess
+	| codeigniter-indonesia-admin/
+		| index.php [default codeigniter index.php untuk redirect ke folder codeigniter-indonesia-admin within codeigniter-id/applications/codeigniter-indonesia-admin]
+		| .htaccess
+	| codeigniter-indonesia-core-system/
+		| [default codeigniter core system]
+	| codeigniter-indonesia-db/
+		| [folder dengan nama folder berupa tanggal perubahan]
+			| [untuk menampung file .sql jika ada yang ditambah atau dirubah]
+	| codeigniter-indonesia-website/
+		| index.php [default codeigniter index.php untuk redirect ke folder codeigniter-indonesia-website within codeigniter-id/applications/codeigniter-indonesia-website]
+	| CONTRIBUTORS.txt
+	| LICENSE
+	| README.md
 
 # Component
 
