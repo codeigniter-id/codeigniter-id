@@ -1,22 +1,40 @@
-# codeigniter-indonesia
-The repository for codeigniter indonesia facebook fanpage
+# codeigniter-id
+codeigniter-id adalah platform untuk grup codeigniter indonesia facebook fanpage
 
 # Folder Structure
-- applications
+- codeigniter-id
+	- applications
+		- codeigniter-indonesia-admin
+			- [default codeigniter for application]
+		- codeigniter-indonesia-website
+			- [default codeigniter for application]
+		- .htaccess
 	- codeigniter-indonesia-admin
-		- [Base application folder for admin-site]
+		- index.php [default codeigniter index.php untuk redirect ke folder codeigniter-indonesia-admin within codeigniter-id/applications/codeigniter-indonesia-admin]
+		- .htaccess
+	- codeigniter-indonesia-core-system
+		- [default codeigniter core system]
+	- codeigniter-indonesia-db
+		- [folder dengan nama folder berupa tanggal perubahan]
+			- [untuk menampung file .sql jika ada yang ditambah atau dirubah]
 	- codeigniter-indonesia-website
-		- [Base application folder for web-site]
-- codeigniter-indonesia-admin
-	- index.php -> redirecting into codeigniter-indonesia-admin folder
-- codeigniter-indonesia-website
-	- index.php -> redirecting into codeigniter-indonesia-website folder
-- codeigniter-indonesia-core-system
-- codeigniter-indonesia-db -> to hold .sql file for this site
-- codeigniter-indonesia-static -> to hold all static file [css,js,image,etc]
+		- index.php [default codeigniter index.php untuk redirect ke folder codeigniter-indonesia-website within codeigniter-id/applications/codeigniter-indonesia-website]
+	- CONTRIBUTORS.txt
+	- LICENSE
+	- README.md
 
 # Component
 
 - Auth modul [ion_auth : https://github.com/benedmunds/CodeIgniter-Ion-Auth]
 	- default login key [admin@admin.com, password]
-	- login test : yourdomain.com/auth
+	
+	
+# Instalasi
+1. clone repository ini.
+2. import file codeigniter_indonesia_db-20151006.sql ke database anda
+3. untuk mengakses admin page, http://yourdomain/codeigniter-id/codeigniter-indonesia-admin
+4. untuk mengakses website page , http://yourdomain/codeigniter-id/codeigniter-indonesia-website
+
+# Development Rules
+1. Jangan bermain dengan master, jika ingin memulai development, buatlah branch turunan master, setelah selesai test, merge kembali ke master dan push. 
+
